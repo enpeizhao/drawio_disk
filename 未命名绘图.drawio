@@ -1,35 +1,35 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="yy0yCkXtV_OiDYRdWhxv">
-    <mxGraphModel dx="1834" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1834" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gDHTOWLItTKaiVTcW1fx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="160" width="160" height="320" as="geometry" />
+          <mxGeometry x="-40" y="160" width="240" height="380" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-4" value="12V 电源母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-5" value="CAN母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-20" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-6" target="gDHTOWLItTKaiVTcW1fx-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-6" value="12V 电源适配器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-7" target="gDHTOWLItTKaiVTcW1fx-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-7" value="USB转CAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-190" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-8" target="gDHTOWLItTKaiVTcW1fx-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-8" value="电脑USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-340" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="160" width="640" height="380" as="geometry" />
@@ -128,6 +128,46 @@
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-44" value="GPIO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gDHTOWLItTKaiVTcW1fx-41">
           <mxGeometry x="-0.2875" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-45" value="5P接线端子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="50" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="39.5" y="160" as="sourcePoint" />
+            <mxPoint x="39.5" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-48" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;strokeColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="140" y="-20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-49" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;strokeColor=#FF0000;exitX=1;exitY=0.25;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="119.5" y="160" as="sourcePoint" />
+            <mxPoint x="119.5" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-50" value="CAN" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gDHTOWLItTKaiVTcW1fx-49">
+          <mxGeometry x="-0.0556" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-52" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="0.5" y="180" as="sourcePoint" />
+            <mxPoint y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-53" value="12V" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="gDHTOWLItTKaiVTcW1fx-52">
+          <mxGeometry x="0.1023" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
