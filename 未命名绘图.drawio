@@ -1,17 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="yy0yCkXtV_OiDYRdWhxv">
-    <mxGraphModel dx="1834" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2234" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gDHTOWLItTKaiVTcW1fx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-40" y="160" width="280" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="gDHTOWLItTKaiVTcW1fx-4" value="12V 电源母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-4" value="12V 电源母座" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-20" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDHTOWLItTKaiVTcW1fx-5" value="CAN母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-20" y="250" width="120" height="60" as="geometry" />
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-5" value="2P 接线端子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-6" target="gDHTOWLItTKaiVTcW1fx-4">
           <mxGeometry relative="1" as="geometry" />
@@ -19,17 +19,17 @@
         <mxCell id="gDHTOWLItTKaiVTcW1fx-6" value="12V 电源适配器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gDHTOWLItTKaiVTcW1fx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-7" target="gDHTOWLItTKaiVTcW1fx-5">
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-7" target="gDHTOWLItTKaiVTcW1fx-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-7" value="USB转CAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-360" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-8" target="gDHTOWLItTKaiVTcW1fx-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-8" value="电脑USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="250" width="120" height="60" as="geometry" />
+          <mxGeometry x="-520" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="160" width="640" height="460" as="geometry" />
@@ -145,7 +145,7 @@
             <mxPoint x="160" y="160" as="sourcePoint" />
             <mxPoint x="140" y="-20" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="140" y="280" />
+              <mxPoint x="140" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -205,6 +205,12 @@
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-66" value="DCDC 舵机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-68" target="gDHTOWLItTKaiVTcW1fx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-68" value="2P 接线端子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
