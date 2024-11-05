@@ -1,9 +1,84 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="第 1 页" id="yy0yCkXtV_OiDYRdWhxv">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-4" value="12V 电源母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-5" value="CAN母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-6" target="gDHTOWLItTKaiVTcW1fx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-6" value="12V 电源适配器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-7" target="gDHTOWLItTKaiVTcW1fx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-7" value="USB转CAN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-8" target="gDHTOWLItTKaiVTcW1fx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-8" value="电脑USB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="550" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-13" value="DCDC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-14" target="gDHTOWLItTKaiVTcW1fx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-14" value="12V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-15" target="gDHTOWLItTKaiVTcW1fx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-15" value="3V3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-16" target="gDHTOWLItTKaiVTcW1fx-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-16" target="gDHTOWLItTKaiVTcW1fx-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-16" value="5V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-17" value="12V真空泵" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-18" value="STM32开发板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-19" target="gDHTOWLItTKaiVTcW1fx-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-19" value="CAN收发器模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-20" target="gDHTOWLItTKaiVTcW1fx-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-20" value="继电器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-28" value="12V" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="320" width="60" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
