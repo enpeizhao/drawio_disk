@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gDHTOWLItTKaiVTcW1fx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="160" width="240" height="380" as="geometry" />
+          <mxGeometry x="-40" y="160" width="280" height="380" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-4" value="12V 电源母座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-20" y="180" width="120" height="60" as="geometry" />
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-45" value="5P接线端子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="150" y="240" width="50" height="220" as="geometry" />
+          <mxGeometry x="190" y="240" width="50" height="220" as="geometry" />
         </mxCell>
         <mxCell id="gDHTOWLItTKaiVTcW1fx-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="gDHTOWLItTKaiVTcW1fx-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -170,6 +170,24 @@
           <mxGeometry x="0.1023" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-55" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-59" value="舵机" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-80" width="60" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-60" value="12V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-80" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-61" value="3V3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-40" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gDHTOWLItTKaiVTcW1fx-62" value="5V" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="320" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
