@@ -384,8 +384,18 @@
         <mxCell id="M50K1cOmxHXFMITcdbHZ-37" value="开关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="762" y="218" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50K1cOmxHXFMITcdbHZ-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="797" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M50K1cOmxHXFMITcdbHZ-38" value="12V 电源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="737" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M50K1cOmxHXFMITcdbHZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="646" y="452" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="M50K1cOmxHXFMITcdbHZ-39" value="USB2CAN转接头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="586" y="495" width="120" height="60" as="geometry" />
