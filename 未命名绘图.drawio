@@ -360,6 +360,24 @@
         <mxCell id="M50K1cOmxHXFMITcdbHZ-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;。。。。。。&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="116" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-30" value="12V +" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="66" y="251" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-31" value="12V -" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="66" y="277" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-32" value="CAN_H" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00CC00;" vertex="1" parent="1">
+          <mxGeometry x="66" y="356" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-33" value="&lt;span style=&quot;&quot;&gt;CAN_L&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="66" y="382" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="43" y="30" width="760" height="418" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-35" value="机械臂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="46" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
