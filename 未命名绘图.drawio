@@ -239,10 +239,13 @@
     </mxGraphModel>
   </diagram>
   <diagram id="mdiCCk1ziowowSovopDT" name="第 2 页">
-    <mxGraphModel dx="1242" dy="785" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="748" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="43" y="30" width="818" height="418" as="geometry" />
+        </mxCell>
         <mxCell id="M50K1cOmxHXFMITcdbHZ-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;strokeColor=#00CC00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="130" y="370" as="sourcePoint" />
@@ -372,11 +375,20 @@
         <mxCell id="M50K1cOmxHXFMITcdbHZ-33" value="&lt;span style=&quot;&quot;&gt;CAN_L&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#0000FF;" vertex="1" parent="1">
           <mxGeometry x="66" y="382" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M50K1cOmxHXFMITcdbHZ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="43" y="30" width="760" height="418" as="geometry" />
-        </mxCell>
         <mxCell id="M50K1cOmxHXFMITcdbHZ-35" value="机械臂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="46" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-36" value="" style="html=1;shape=mxgraph.electrical.electro-mechanical.singleSwitch;aspect=fixed;elSwitchState=off;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="750" y="254" width="75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-37" value="开关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="762" y="218" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-38" value="12V 电源" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="737" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M50K1cOmxHXFMITcdbHZ-39" value="USB2CAN转接头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="586" y="495" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
