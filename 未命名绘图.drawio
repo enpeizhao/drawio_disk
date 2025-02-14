@@ -252,6 +252,7 @@
             <mxPoint x="750" y="370" as="targetPoint" />
             <Array as="points">
               <mxPoint x="511" y="370" />
+              <mxPoint x="511" y="371" />
               <mxPoint x="892" y="371" />
             </Array>
           </mxGeometry>
@@ -406,6 +407,53 @@
         </mxCell>
         <mxCell id="M50K1cOmxHXFMITcdbHZ-50" value="计算机" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="892" y="472" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-6" value="吸盘/舵机夹爪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="561" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-7" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#FF0000;strokeWidth=2;exitX=0.25;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="RI7QRqYiSLad79aDTVj9-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="509" y="349" as="sourcePoint" />
+            <mxPoint x="509" y="269" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="509" y="472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-8" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="517" y="471.96" as="sourcePoint" />
+            <mxPoint x="519" y="290.96" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="517" y="472.96" />
+              <mxPoint x="519" y="472.96" />
+              <mxPoint x="519" y="381.96" />
+              <mxPoint x="520" y="381.96" />
+              <mxPoint x="520" y="290.96" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;strokeColor=#00CC00;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="545" y="473" as="sourcePoint" />
+            <mxPoint x="547" y="369" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="545" y="474" />
+              <mxPoint x="547" y="474" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-10" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=3;strokeColor=#0000FF;entryX=0.85;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562" y="476.5" as="sourcePoint" />
+            <mxPoint x="562" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RI7QRqYiSLad79aDTVj9-5" target="RI7QRqYiSLad79aDTVj9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RI7QRqYiSLad79aDTVj9-5" value="夹爪控制盒" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="492" y="472" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
