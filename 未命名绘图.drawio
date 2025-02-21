@@ -592,7 +592,7 @@
         <mxCell id="I3HdvoJFKKi_HgKEzVzq-40" value="4P 插口" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="613" y="460" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="I3HdvoJFKKi_HgKEzVzq-41" value="机械臂走线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="I3HdvoJFKKi_HgKEzVzq-41" value="机械臂4根线" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="613" y="533" width="73" height="30" as="geometry" />
         </mxCell>
         <mxCell id="I3HdvoJFKKi_HgKEzVzq-42" value="带灯开关" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
