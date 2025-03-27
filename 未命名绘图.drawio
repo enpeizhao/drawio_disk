@@ -886,13 +886,29 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-51" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-51" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="900.5" y="-203" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-55" target="ynhyf3Zm-BDAET9vfx3c-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="814" y="-355" />
+              <mxPoint x="814" y="-173" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-55" value="VCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="867.5" y="-385" width="30.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-56" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-56" target="ynhyf3Zm-BDAET9vfx3c-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="991" y="-355" />
+              <mxPoint x="991" y="-173" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-56" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="897.5" y="-385" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-57" value="&lt;div&gt;三通电磁阀&lt;/div&gt;&lt;div&gt;12V&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
