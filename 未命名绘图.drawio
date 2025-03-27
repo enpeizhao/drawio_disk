@@ -719,7 +719,7 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-10" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="110" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-14" target="prl4wf1EGl5tWCYP8vEy-12">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;strokeWidth=2;endArrow=none;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-14" target="prl4wf1EGl5tWCYP8vEy-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-14" value="12V公头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -881,15 +881,11 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-64" value="PWM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="472" y="15" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-66" target="ynhyf3Zm-BDAET9vfx3c-15">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=0;strokeWidth=2;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-66" target="ynhyf3Zm-BDAET9vfx3c-16">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="418.125" y="288" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="431" y="288" />
-              <mxPoint x="431" y="339" />
-              <mxPoint x="394" y="339" />
-              <mxPoint x="394" y="490" />
-              <mxPoint x="270" y="490" />
+              <mxPoint x="428" y="345" />
+              <mxPoint x="270" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -907,6 +903,16 @@
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-69" value="out-" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="442" y="110" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-77" target="ynhyf3Zm-BDAET9vfx3c-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="458" y="374" />
+              <mxPoint x="388" y="374" />
+              <mxPoint x="388" y="490" />
+              <mxPoint x="270" y="490" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-77" value="IN+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="442.5" y="227" width="30.5" height="60" as="geometry" />
