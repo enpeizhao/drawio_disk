@@ -701,15 +701,6 @@
             <mxPoint x="739.5" y="-780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="prl4wf1EGl5tWCYP8vEy-35" value="吸盘" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="-620" width="60" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="prl4wf1EGl5tWCYP8vEy-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="prl4wf1EGl5tWCYP8vEy-37" target="prl4wf1EGl5tWCYP8vEy-35">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="prl4wf1EGl5tWCYP8vEy-37" value="三通电磁阀&lt;br&gt;12V" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="845" y="-610" width="115" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-1" value="CAN_H" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="520" y="700" width="60" height="30" as="geometry" />
         </mxCell>
