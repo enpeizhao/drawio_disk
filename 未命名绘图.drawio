@@ -612,7 +612,7 @@
         <mxCell id="prl4wf1EGl5tWCYP8vEy-2" value="DCDC降压模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="470" y="360" width="60" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;startFill=0;" edge="1" parent="1" source="prl4wf1EGl5tWCYP8vEy-3" target="ynhyf3Zm-BDAET9vfx3c-43">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=none;startFill=0;strokeColor=#FF0000;" edge="1" parent="1" source="prl4wf1EGl5tWCYP8vEy-3" target="ynhyf3Zm-BDAET9vfx3c-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="565" y="-89" />
@@ -884,11 +884,32 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-43" value="COM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="840" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;strokeColor=#FF0000;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-44" target="ynhyf3Zm-BDAET9vfx3c-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-44" value="NO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="870" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-45" value="NC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="810" y="-50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-49" value="真空泵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="862.5" y="-261" width="78" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-50" value="VCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="870.5" y="-203" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;" edge="1" parent="1" source="ynhyf3Zm-BDAET9vfx3c-51" target="ynhyf3Zm-BDAET9vfx3c-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="916" y="-101" />
+              <mxPoint x="989" y="-101" />
+              <mxPoint x="989" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-51" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="900.5" y="-203" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
