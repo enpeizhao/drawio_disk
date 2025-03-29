@@ -785,7 +785,7 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-34" value="G" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="730" y="370" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-38" value="继电器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-38" value="继电器&lt;div&gt;5V&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="790" y="10" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-39" value="DC+" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
