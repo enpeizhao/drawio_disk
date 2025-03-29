@@ -818,7 +818,7 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-45" value="NC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="810" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-49" value="真空泵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-49" value="真空泵&lt;div&gt;12V&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1092.5" y="221" width="78" height="58" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-50" value="VCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
