@@ -605,7 +605,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ubsDmBmh3Q8lLb7PaQ_s" name="第 4 页">
-    <mxGraphModel dx="1642" dy="1619" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1882" dy="1219" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -809,7 +809,7 @@
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-43" value="COM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
           <mxGeometry x="840" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ynhyf3Zm-BDAET9vfx3c-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;strokeColor=#FF0000;" parent="1" source="ynhyf3Zm-BDAET9vfx3c-44" target="ynhyf3Zm-BDAET9vfx3c-50" edge="1">
+        <mxCell id="ynhyf3Zm-BDAET9vfx3c-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;strokeColor=#FF0000;" parent="1" source="ynhyf3Zm-BDAET9vfx3c-44" target="ynhyf3Zm-BDAET9vfx3c-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-44" value="NO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#36393d;" parent="1" vertex="1">
@@ -819,47 +819,45 @@
           <mxGeometry x="810" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-49" value="真空泵" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="862.5" y="-261" width="78" height="58" as="geometry" />
+          <mxGeometry x="1092.5" y="221" width="78" height="58" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-50" value="VCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="870.5" y="-203" width="30" height="60" as="geometry" />
+          <mxGeometry x="1100.5" y="279" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;" parent="1" source="ynhyf3Zm-BDAET9vfx3c-51" target="ynhyf3Zm-BDAET9vfx3c-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="916" y="-101" />
-              <mxPoint x="989" y="-101" />
-              <mxPoint x="989" y="500" />
+              <mxPoint x="1143" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-51" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="900.5" y="-203" width="30" height="60" as="geometry" />
+          <mxGeometry x="1130.5" y="279" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;strokeColor=#FF0000;" parent="1" source="ynhyf3Zm-BDAET9vfx3c-55" target="ynhyf3Zm-BDAET9vfx3c-50" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="814" y="-355" />
-              <mxPoint x="814" y="-173" />
+              <mxPoint x="999" y="127" />
+              <mxPoint x="999" y="309" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-55" value="VCC" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF0000;" parent="1" vertex="1">
-          <mxGeometry x="867.5" y="-385" width="30.5" height="60" as="geometry" />
+          <mxGeometry x="1097.5" y="97" width="30.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;startFill=0;strokeWidth=2;" parent="1" source="ynhyf3Zm-BDAET9vfx3c-56" target="ynhyf3Zm-BDAET9vfx3c-51" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="991" y="-355" />
-              <mxPoint x="991" y="-173" />
+              <mxPoint x="1221" y="127" />
+              <mxPoint x="1221" y="309" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-56" value="GND" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#808080;strokeColor=#36393d;" parent="1" vertex="1">
-          <mxGeometry x="897.5" y="-385" width="30" height="60" as="geometry" />
+          <mxGeometry x="1127.5" y="97" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-57" value="&lt;div&gt;三通电磁阀&lt;/div&gt;&lt;div&gt;12V&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="860" y="-443" width="78" height="58" as="geometry" />
+          <mxGeometry x="1090" y="39" width="78" height="58" as="geometry" />
         </mxCell>
         <mxCell id="ynhyf3Zm-BDAET9vfx3c-61" value="舵机&lt;div&gt;7.4V&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;输出端GND 接总地&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;否则舵机振动&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="392" y="-85" width="130" height="100" as="geometry" />
