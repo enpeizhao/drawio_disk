@@ -1044,8 +1044,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-42" value="Dino推理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="916" width="120" height="61" as="geometry" />
+        <mxCell id="yDg2ITicauU3GF2g5U8k-42" value="Dino检测推理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="953" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-50" value="VLM使用API，本地部署成本高" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-192" y="685" width="230" height="30" as="geometry" />
