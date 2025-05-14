@@ -982,35 +982,45 @@
         <mxCell id="yDg2ITicauU3GF2g5U8k-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-15" target="yDg2ITicauU3GF2g5U8k-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-29" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yDg2ITicauU3GF2g5U8k-20">
+          <mxGeometry x="0.5294" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-15" target="yDg2ITicauU3GF2g5U8k-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-15" value="判断使用的检测模型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-30" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="yDg2ITicauU3GF2g5U8k-22">
+          <mxGeometry x="-0.2381" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-15" value="检测模型是VLM？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="214" y="499" width="152" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-19" target="yDg2ITicauU3GF2g5U8k-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-19" value="VLM 多模态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="621" width="120" height="60" as="geometry" />
+          <mxGeometry x="83" y="661" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-21" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="621" width="120" height="60" as="geometry" />
+          <mxGeometry x="230" y="661" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-23" target="yDg2ITicauU3GF2g5U8k-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-23" value="VLM 处理list_objs 提示词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="728" width="120" height="60" as="geometry" />
+          <mxGeometry x="83" y="768" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-25" target="yDg2ITicauU3GF2g5U8k-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-25" value="给出物体坐标" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="831" width="120" height="60" as="geometry" />
+          <mxGeometry x="83" y="871" width="120" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-27" value="输出文字，并且保存图片" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="83" y="943" width="120" height="60" as="geometry" />
+        <mxCell id="yDg2ITicauU3GF2g5U8k-27" value="输出文字&lt;br&gt;绘制检测框保存图片" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="983" width="120" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
