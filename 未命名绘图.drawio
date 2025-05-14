@@ -936,7 +936,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="8cYrf2BDWW-Z_I2PMWG1" name="第 5 页">
-    <mxGraphModel dx="1242" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="1185" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -944,19 +944,61 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-1" value="开始程序" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="370" y="-60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-2" target="yDg2ITicauU3GF2g5U8k-4">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-2" target="yDg2ITicauU3GF2g5U8k-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-2" value="用户输入自然语言" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="370" y="60" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-4" value="LLM 解析命令路由" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-4" target="yDg2ITicauU3GF2g5U8k-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-4" target="yDg2ITicauU3GF2g5U8k-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-4" value="LLM 解析命令路由" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="370" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-7" value="可以使用本地部署LLM或网络API" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="275" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-8" target="yDg2ITicauU3GF2g5U8k-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-8" value="list_objs 列出物体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-10" value="grasp_obj 抓取物体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-12" target="yDg2ITicauU3GF2g5U8k-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-12" value="读取视频流，截图" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="370" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-15" target="yDg2ITicauU3GF2g5U8k-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-15" target="yDg2ITicauU3GF2g5U8k-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-15" value="判断使用的检测模型" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="214" y="499" width="152" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-19" target="yDg2ITicauU3GF2g5U8k-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-19" value="VLM 多模态" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="621" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-21" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="621" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-23" value="VLM 处理list_objs 提示词" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83" y="728" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
