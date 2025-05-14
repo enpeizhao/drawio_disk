@@ -970,7 +970,7 @@
         <mxCell id="yDg2ITicauU3GF2g5U8k-8" value="list_objs 列出物体" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-10" target="yDg2ITicauU3GF2g5U8k-51">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-10" target="yDg2ITicauU3GF2g5U8k-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-10" value="grasp_obj 抓取物体" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1019,10 +1019,11 @@
         <mxCell id="yDg2ITicauU3GF2g5U8k-27" value="LLM 处理list_objs提示词&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整理JSON格式&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="33" y="816" width="120" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-35" target="yDg2ITicauU3GF2g5U8k-58">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yDg2ITicauU3GF2g5U8k-58">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="93" y="992.0000000000005" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="93" y="1334" />
+              <mxPoint x="93" y="1184" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1050,21 +1051,16 @@
         <mxCell id="yDg2ITicauU3GF2g5U8k-50" value="VLM使用API，本地部署成本高" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-192" y="685" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-51" target="yDg2ITicauU3GF2g5U8k-53">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-51" value="Dino推理" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="508.5" width="120" height="61" as="geometry" />
-        </mxCell>
-        <mxCell id="yDg2ITicauU3GF2g5U8k-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-53" target="yDg2ITicauU3GF2g5U8k-58">
+        <mxCell id="yDg2ITicauU3GF2g5U8k-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yDg2ITicauU3GF2g5U8k-58">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="682" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="550" y="1334" />
+              <mxPoint x="550" y="1184" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-53" value="保存目标检测位置到numpy文件" style="whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="490" y="670" width="120" height="61" as="geometry" />
+          <mxGeometry x="490" y="771" width="120" height="61" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-55" target="yDg2ITicauU3GF2g5U8k-57">
           <mxGeometry relative="1" as="geometry" />
@@ -1094,7 +1090,7 @@
           <mxGeometry x="849" y="132" width="152" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-58" value="结束程序" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="1294" width="120" height="80" as="geometry" />
+          <mxGeometry x="230" y="1144" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-62" target="yDg2ITicauU3GF2g5U8k-69">
           <mxGeometry relative="1" as="geometry" />
@@ -1123,6 +1119,18 @@
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-78" value="等待1s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1093" y="142" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-83" target="yDg2ITicauU3GF2g5U8k-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-83" value="VLM 处理grasp_obj 提示词&lt;div&gt;&lt;br&gt;&lt;div&gt;给出物体类别列表JSON&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="490" y="496.5" width="120" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yDg2ITicauU3GF2g5U8k-84" target="yDg2ITicauU3GF2g5U8k-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yDg2ITicauU3GF2g5U8k-84" value="LLM 处理grasp_obj提示词&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整理JSON格式&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="490" y="654" width="120" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
