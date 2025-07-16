@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.1.3" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.0.5" pages="6">
   <diagram name="第 1 页" id="yy0yCkXtV_OiDYRdWhxv">
     <mxGraphModel dx="2494" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1131,6 +1131,56 @@
         </mxCell>
         <mxCell id="yDg2ITicauU3GF2g5U8k-84" value="LLM 处理grasp_obj提示词&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;整理JSON格式&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="490" y="654" width="120" height="61" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qIi0VAzD8Rzrl1JM1XLf" name="第 6 页">
+    <mxGraphModel dx="1234" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="210" width="410" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-2" value="获取主臂角度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-4" value="传给副臂角度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-5" value="遥操作采集数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="220" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-7" value="robot.capture_observation()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-9" value="推理" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="860" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="250" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-12" value="robot.capture_observation()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="970" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-13" value="observation.state =&amp;nbsp;leader_angles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;action =&amp;nbsp;follower_angles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;observation.images =&amp;nbsp;cameras&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="210" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-15" value="observation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="590" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-18" value="action" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;robot.teleop_step&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
