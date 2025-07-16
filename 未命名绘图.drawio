@@ -1141,7 +1141,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IVNF1L2IUoVh1xkQNsC8-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="210" width="410" height="400" as="geometry" />
+          <mxGeometry x="220" y="210" width="410" height="440" as="geometry" />
         </mxCell>
         <mxCell id="IVNF1L2IUoVh1xkQNsC8-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="250" width="370" height="80" as="geometry" />
@@ -1156,16 +1156,16 @@
           <mxGeometry x="230" y="220" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IVNF1L2IUoVh1xkQNsC8-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="360" width="290" height="230" as="geometry" />
+          <mxGeometry x="230" y="360" width="290" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="IVNF1L2IUoVh1xkQNsC8-13" value="observation.state =&amp;nbsp;leader_angles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;action =&amp;nbsp;follower_angles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;老版本简化：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;leader_angles =&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;follower_angles&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;observation.images =&amp;nbsp;cameras&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="420" width="260" height="150" as="geometry" />
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-13" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;observation.state =&amp;nbsp;leader_angles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;action =&amp;nbsp;follower_angles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;老版本简化：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;leader_angles =&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;follower_angles&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;observation.images =&amp;nbsp;cameras&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="420" width="260" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="IVNF1L2IUoVh1xkQNsC8-15" value="异步更新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="250" y="420" width="60" height="30" as="geometry" />
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-15" value="一个Episode 内循环control_loop&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="420" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IVNF1L2IUoVh1xkQNsC8-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;robot.teleop_step&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="370" width="130" height="30" as="geometry" />
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;异步函数更新变量：robot.teleop_step&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="370" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IVNF1L2IUoVh1xkQNsC8-22" value="机械臂" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="275" width="60" height="30" as="geometry" />
@@ -1184,6 +1184,27 @@
         </mxCell>
         <mxCell id="IVNF1L2IUoVh1xkQNsC8-35" value="robot.send_action(action)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="762.5" y="480" width="285" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-36" value="老版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-47" value="新版本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-48" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="730" width="410" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-52" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-lark-html-role=&quot;root&quot; data-page-id=&quot;LbGAdZ7i4ojsTCxXWZucUYdJnkh&quot;&gt;&lt;div class=&quot;old-record-id-CXvndNbYyosHNgxJPdLcqTLjneh&quot; style=&quot;white-space:pre;&quot;&gt;lerobot.record&lt;/div&gt;&lt;/div&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;LbGAdZ7i4ojsTCxXWZucUYdJnkh&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;lerobot.record&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*0+e&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;7126813263567896580&amp;quot;]},&amp;quot;nextNum&amp;quot;:1}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;channel&amp;quot;:&amp;quot;saas&amp;quot;,&amp;quot;isEqualBlockSelection&amp;quot;:false,&amp;quot;pasteRandomId&amp;quot;:&amp;quot;0d28308a-71d6-45f6-bf76-fdd25d782cce&amp;quot;,&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:true,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:8,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:10,&amp;quot;end&amp;quot;:24},&amp;quot;recordId&amp;quot;:&amp;quot;CXvndNbYyosHNgxJPdLcqTLjneh&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="740" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="800" width="290" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-54" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;observation.state =&amp;nbsp;leader_angles&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;action =&amp;nbsp;follower_angles&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;老版本简化：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;leader_angles =&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;follower_angles&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;observation.images =&amp;nbsp;cameras&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="860" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IVNF1L2IUoVh1xkQNsC8-55" value="一个Episode 内循环control_loop&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235" y="860" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
