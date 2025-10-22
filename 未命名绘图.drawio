@@ -1279,8 +1279,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DXn16Dd0rR4ZToMnZYIS-6" value="zero calibration succeed?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="310" width="120" height="60" as="geometry" />
+        <mxCell id="DXn16Dd0rR4ZToMnZYIS-6" value="zero calibration succeed?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=0;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="60" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DXn16Dd0rR4ZToMnZYIS-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DXn16Dd0rR4ZToMnZYIS-10" target="DXn16Dd0rR4ZToMnZYIS-12">
           <mxGeometry relative="1" as="geometry" />
